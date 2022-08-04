@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+/* 
+    주석 단축키 crtl + /
+*/
+/* 
+*{
+    border: 1px solid red;
+} */
+
+/* *는 모든 css태그를 포함한다 */
+
+h1{
+    border: 1px solid red;
+}
+
+h2{
+    border: 1px solid green;
+}
+
+h3{
+    border: 1px solid blue;
+}
+
+p strong{
+    border: 1px solid black;
+}
+
+ul >li{
+    border: 1px solid orange;
+}
+
+h4,h5,h6{
+    border: 1px solid gray;
+}
+
+ul li:nth-of-type(1){
+    border: 1px solid red;
+}
+
+ul li:nth-of-type(2){
+    border: 1px solid blue;
+}
+
+ul li:nth-of-type(3){
+    border: 1px solid yellow;
+}
+
+ul li:nth-of-type(4){
+    border: 1px solid green;
+}
+
+input[type="text"]{
+    border: 1px solid blue;
+}
+
+input[type="password"]{
+     border: 1px solid red;
+}
+
+h1{
+    border: 1px solid blue;
+}
+h1:hover{
+    border: 1px solid red;
+}
+/* hover는 마우스를 위에 올리면 발생하는 이벤트 */
+
+h1::before{
+    content: "before content";
+    color:red;
+}
+
+h1::after{
+    content:"after content";
+    color:blueviolet;
+}
+
+p.text1{
+    border: 1px solid red;
+}
+
+p.text2{
+    border: 1px solid green;
+}
+/* class 태그는 .으로 표기한다 */
+
+#header{
+    border: 1px solid red;
+}
+
+#section{
+    border: 1px solid burlywood;
+}
+
+#footer{
+    border: 1px solid rebeccapurple;
+}
+
+/* id태그는 #으로 표기한다 */

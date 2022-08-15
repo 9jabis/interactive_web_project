@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/* article{
+    border: 1px solid red;
+}
+
+article:nth-of-type(1){
+    width: 100px;
+    height: 100px;
+}
+
+article:nth-of-type(2){
+    width: 20%;
+    height: 20%;
+}
+
+article:nth-of-type(3){
+    width: 10vw;
+    height: 10vw;
+}
+
+article:nth-of-type(4){
+    width: 20vh;
+    height: 20vh;
+} */
+
+article{
+    width: 50px;
+    height: 30px;
+    border: 1px solid red
+}
+
+article:nth-of-type(1){
+    margin: 20px;
+}
+
+article:nth-of-type(2){
+    margin: 20px 50px;
+}
+
+article:nth-of-type(3){
+    margin: 20px auto;
+    /* auto는 좌우 가운데 */
+}
+
+article:nth-of-type(4){
+    margin: 20px auto 40px;
+    /* 1번째 위의 여백 2번째 좌우 3번째 아래 여백 */
+}
+
+article:nth-of-type(5){
+    margin: 0px 10px 20px 30px;
+    /* 위 아래 왼쪽 오른쪽 */
+}
+
+article:nth-of-type(6){
+    margin-left: 20px;
+}
+
+article:nth-of-type(7){
+    margin-right: 20px;
+}
+
+article:nth-of-type(8){
+    margin-top: 20px;
+}
+
+article:nth-of-type(9){
+    margin-bottom: 20px;
+}

@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/* 
+    css를 주석으로 묶어서
+    설명글을 넣거나 특정 css코드를 비활성화 할 수 있다.
+*/
+
+/* h1{
+    font-weight: normal;
+}
+
+span{
+    font-weight: bold;
+} */
+
+/* html{
+    font-size: 16px;
+}
+
+article h1{
+    font-size: 3rem;
+}
+
+article p{
+    font-size: 2rem;
+}
+
+article a{
+    font-size: 1rem;
+}
+
+rem은 기본 폰트의 크기를 지정하고 폰트크기를 베이스를 토대로 한번에 바꿀 수 있다. */
+
+/* article{
+    font-size: 40px;
+}
+
+article h1{
+    font-size: 3em;
+}
+
+article p{
+    font-size: 2em;
+}
+
+article a{
+    font-size: 0.8em;
+}
+
+em과 rem의 차이는 em은 article의 구채적인 값이 확인되어야하는데, 나중에 복잡한 경우가 나오면 꼬일 수가 있어 보통 rem을 사용한다 */
+
+ul li{
+    font-size: 40px;
+}
+
+ul li:nth-of-type(1){
+    font-family: "돋움";
+}
+
+ul li:nth-of-type(2){
+    font-family: "굴림";
+}
+
+ul li:nth-of-type(3){
+    font-family: "serif";
+}
+
+ul li:nth-of-type(4){
+    font-family: "arial";
+}
